@@ -1,0 +1,38 @@
+#buttons-container{
+    height: 300px;
+    width: 265px;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    
+}
+#sub-container1{
+    width: 250px;
+    
+}
+#clear{
+    width: 260px;
+    height: 50px;
+}
+#clear:active{
+    transform: translateY(-.5px) translateX(-.5px)
+}
+#sub-container2{
+    height: 250px;
+    width: 260px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+button{
+    margin: 0;
+    padding: 0;
+    border: black solid 1px;
+    font-size: 26px;
+    background-color: #aeafb2;
+    outline: none;
+    border-radius: 5%;
+}
+
+button:active{
+    transform: translateY(-.5px) translateX(-.5px)
+}
